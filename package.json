@@ -1,0 +1,1 @@
+{"name":"ai-cafe","private":true,"type":"module","scripts":{"dev":"astro dev","build":"astro build","preview":"astro preview","test":"node --test test/*.test.mjs"},"dependencies":{"astro":"^5.18.0"},"engines":{"node":">=22.13.0"}}

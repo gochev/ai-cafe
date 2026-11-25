@@ -1,0 +1,9 @@
+---
+import type { Meetup } from './events';
+interface Props { event: Meetup }
+const {event:e} = Astro.props;
+const date = (value:string) => new Intl.DateTimeFormat('en-GB',{dateStyle:'medium',timeStyle:'short',timeZone:e.timeZone}).format(new Date(value));
+---
+<article class="event"><h3>{e.title}</h3><p><time datetime={e.startsAt}>{date(e.startsAt)}</time>{e.endsAt && <> – <time datetime={e.endsAt}>{date(e.endsAt)}</time></>} · {e.timeZone}</p><b><a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(e.location)}`} target="_blank" rel="noopener noreferrer">{e.location} <span aria-hidden="true">↗</span></a></b><p>{e.description}</p>{e.registrationUrl && <a class="button" href={e.registrationUrl}>Register ↗</a>}{e.sponsor && <p class="event-sponsor"><span>Supported by</span> <a href={e.sponsor.url}>{e.sponsor.image ? <img width="100" alt={e.sponsor.name} src={e.sponsor.image}/> : e.sponsor.name}</a></p>}</article>
+
+

@@ -1,0 +1,20 @@
+---
+import '../style.css';
+import type { Meetup } from '../events';
+import eventData from '../data/events.json';
+import {schedule} from '../events';
+import Event from '../Event.astro';
+const events: Partial<Meetup>[] = eventData as Partial<Meetup>[];
+const { upcoming, past } = schedule(events);
+const showDrafts = import.meta.env.DEV || import.meta.env.MODE === 'demo';
+const drafts = showDrafts
+  ? schedule(events.filter(event => event.status === 'draft').map(event => ({...event, status:'published'})), 0).upcoming
+  : [];
+---
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>AI Café | Code and coffee meetups</title><meta name="description" content="Regular café meetups for people coding with AI. Bring a laptop, compare workflows and talk through what gets stuck."/><link rel="canonical" href="https://aicafe.to/"/></head>
+<body id="top"><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#top"><span aria-hidden="true">✦</span> AI Café</a><nav aria-label="Main"><a href="#meetups">Meetups</a><a href="#about">About</a><a class="conference" href="https://aistackconf.com">AI Stack Conf ↗</a></nav></header>
+<main id="main"><section class="hero"><div class="intro"><div class="eyebrow"><i></i> CODE &amp; COFFEE MEETUPS</div><h1>AI Café<span aria-hidden="true">✦</span></h1><h2>Bring your laptop.<br/>Pull up a chair.</h2><p>A regular meetup to code with AI, swap workflows and talk through the bits that still get stuck.</p><a class="button" href="#meetups">Explore meetups <b>↓</b></a></div><figure><img src="./cafe.svg" alt="A robot and human coders sharing a booth in a pastel space-age café."/></figure></section>
+<section id="meetups"><div class="sectionhead"><div class="eyebrow"><i></i> THE CAFÉ CALENDAR</div><h2>Upcoming meetups</h2></div>{drafts.map(event => <div><p class="eyebrow">DRAFT PREVIEW · SAMPLE DETAILS</p><Event event={event}/></div>)}{upcoming.length ? upcoming.map(event => <Event event={event}/>) : !drafts.length && <div class="empty"><span class="cup" aria-hidden="true">☕︎</span><div><h3>Next date brewing</h3><p>Check back here for the next café, venue and registration details.</p></div></div>}{past.length > 0 && <><h2>Past meetups</h2>{past.map(event => <Event event={event}/>)}</>}</section>
+<section id="about"><div class="eyebrow"><i></i> ABOUT AI CAFÉ</div><h2>What’s on the table?</h2><p>Bring a project, a workflow you’ve improved, or a problem you’re still figuring out. We open our laptops, try things together and compare what works.</p><p>AI Café is the meetup sibling of <a href="https://aistackconf.com">AI Stack Conf ↗</a>, the annual AI conference.</p></section></main><footer><a class="brand" href="#top">✦ AI Café</a><a href="#top">Back to top ↑</a></footer></body></html>
+
+

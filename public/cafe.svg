@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 505" role="img" aria-labelledby="title desc">
+<title id="title">An afternoon at AI Café</title>
+<desc id="desc">Two friends share a laptop while a smiling robot serves coffee in a coral and mint space-age diner overlooking a city of spires.</desc>
+<defs>
+  <linearGradient id="sky" x2="0.3" y2="1"><stop stop-color="#99dccc"/><stop offset="1" stop-color="#ecf5cd"/></linearGradient>
+  <linearGradient id="metal" x2=".9" y2="1"><stop stop-color="#fffad7"/><stop offset=".48" stop-color="#9cd7c2"/><stop offset="1" stop-color="#59aba0"/></linearGradient>
+  <pattern id="floor" width="96" height="38" patternUnits="userSpaceOnUse" patternTransform="skewX(-32)"><rect width="96" height="38" fill="#ffe7c7"/><path d="M0 0h48v19H0zm48 19h48v19H48z" fill="#e3ac95"/></pattern>
+  <g id="spark" fill="#fff4bb"><path d="M0-15 3-3 15 0 3 3 0 15-3 3-15 0-3-3Z"/></g>
+</defs>
+<!-- Panoramic glass, distant saucer towers, and the cantilevered roof. -->
+<rect width="760" height="505" fill="#ffe5bc"/>
+<path d="M0 20 760 0v307L0 343Z" fill="url(#sky)"/>
+<circle cx="561" cy="105" r="47" fill="#ffda9c"/>
+<g fill="#8ac5ae"><path d="M0 235q59-40 96-20 70-39 121 2 80-56 130-20 76-46 153-15 55-23 101-8 87-52 159-29v153H0z"/><path d="m115 201 6-70 5 71zm266-16 8-88 6 88zm295-14 8-100 5 100z"/></g>
+<g fill="#689f94"><path d="m97 261 8-103h6l7 101zm14-124-3-50-2 50z"/><ellipse cx="108" cy="147" rx="43" ry="8"/><path d="M72 145q34-27 72 0z" fill="#f5ae9c"/><path d="m552 232 7-90h5l10 93z"/><ellipse cx="561" cy="145" rx="31" ry="7"/><path d="m556 139 4-43 4 43z"/><path d="M0 260v-55h19v-14h20v63l15-3v-41h24v40l54-3v-25h28v19l32-3v-43h16v-10h14v50l44-5v-22h22v21l18-2v-58h23v55l21-2v-20h17v19l76-5v-31h20v26l38-3v-47h13v44l75-4v-28h21v27l39-4v-33h23v30l68-6v-50h20v92z"/></g>
+<g stroke="#fff0c9" fill="none"><path d="m9 261 738-60" stroke-width="8"/><path d="M-18 270 767 207" stroke-width="2"/></g>
+<g fill="#fff4ce"><path d="m208 75 35-1q12-16 23-4l17 1-10 6-54 3z"/><path d="m484 64 27-4q7-11 17-4l13 1-6 4-41 5z"/></g>
+<path d="m0 27 760-27v16L0 80z" fill="#fcaa96"/><path d="m0 73 760-63v8L0 88z" fill="#376664"/>
+<path d="m21 79 11-1 47 215-12 2zM445 43l9-1-24 213-9 1zm263-21 11-1-48 218-10 1z" fill="#fff0ce"/>
+<path d="m0 285 760-59v52L0 349Z" fill="#fb9e91"/><path d="m0 292 760-60v8L0 303z" fill="#fff1d0"/>
+<path d="M0 428 760 355v150H0Z" fill="url(#floor)"/>
+<!-- Boomerang pendant lights. -->
+<g stroke="#36545c" stroke-width="3"><path d="M163 0v94m472-94v63"/><path d="M121 115q40-43 82-5-36 22-82 5zM607 79q24-30 53-5-29 16-53 5z" fill="#ffab99"/></g>
+<path d="M130 115q32-9 64-5-22 13-64 5zm484-36 39-4q-15 8-39 4z" fill="#fff4b9"/>
+<!-- Curved banquette. -->
+<path d="M-30 369q0-42 40-47l292-34q27-3 33 25l8 53L0 421z" fill="#ed827b" stroke="#594f57" stroke-width="4"/>
+<path d="m12 343 298-34m-295 52 298-35" stroke="#ffb5a0" stroke-width="4"/>
+<!-- Left guest with dark swept hair and a saffron cardigan. -->
+<g stroke="#3d4955" stroke-linejoin="round" stroke-linecap="round">
+<path d="M134 231q-35-15-32-45-13-17-1-33 10-16 31-10 27-20 51 0 13 13 3 33l-15 34z" fill="#404454" stroke-width="3"/>
+<path d="M145 169q24 5 32-12 11 10 8 23l8 10-8 3q1 15-11 19l-4 19-26 3 7-27q-13-3-13-13-11-15-1-18l8 5z" fill="#c88260" stroke-width="3"/>
+<path d="m174 181 3-1m-1 18q4 2 7-1" fill="none" stroke-width="2.6"/><circle cx="143" cy="196" r="5" fill="#ffc966" stroke-width="2"/>
+<path d="M142 216q17 10 29 4 22 10 30 39l12 62-99 19q-1-102 28-124z" fill="#fac572" stroke-width="3.5"/>
+<path d="m140 217 9 21 13-10 9 9 4-16" fill="#fff0ca" stroke-width="2.5"/>
+<path d="m145 263 21 40 61-5 3 13-72 12q-7 0-12-8l-20-36" fill="#fac572" stroke-width="3.5"/>
+<path d="m224 299 18-7 13 2 11 7-4 3-13-4 6 4-25 6z" fill="#c88260" stroke-width="2.5"/>
+</g>
+<!-- Friendly barista, segmented arms and enamel apron. -->
+<g stroke="#3b5961" stroke-linejoin="round" stroke-linecap="round">
+<path d="m395 133-6-27" stroke-width="4"/><circle cx="388" cy="103" r="7" fill="#ef817b" stroke-width="3"/>
+<path d="M350 157q-5-19 13-23l57-10q15-2 19 14l5 32q3 13-10 17l-57 11q-17 2-21-12z" fill="url(#metal)" stroke-width="4"/>
+<path d="m362 152 62-10q5-1 6 6l2 15q0 7-7 8l-55 9q-6 1-7-6l-3-16z" fill="#455968" stroke-width="2"/>
+<path d="m373 165 4-5 6 3m24-4 4-5 6 3" stroke="#fff2b7" stroke-width="3.5" fill="none"/>
+<path d="M387 181q10 4 18-4" stroke-width="2" fill="none"/><ellipse cx="445" cy="155" rx="6" ry="12" fill="#f7bc76" stroke-width="3"/>
+<path d="m386 194 1 14 27-4-2-15" fill="#7cb6ac" stroke-width="3"/><path d="m389 199 21-4" stroke-width="2"/>
+<path d="m364 212 56-12q16-2 23 14l16 60-89 12-17-55q-6-15 11-19z" fill="url(#metal)" stroke-width="4"/>
+<path d="m369 212 10-3 6 13 28-5-1-14 9-1 9 28 16 44-70 9 1-35z" fill="#e78379" stroke-width="2.5"/>
+<path d="m389 240 31-5 2 13q-10 13-30 6z" fill="#ffb6a1" stroke-width="2"/>
+<circle cx="355" cy="225" r="11" fill="#ffc378" stroke-width="3"/>
+<path d="m349 227-21 18-32-10-6 11 39 15q6 1 10-3l22-22" fill="url(#metal)" stroke-width="3.5"/>
+<path d="m316 244-4 9m-6-12-4 9m39-17 8 7" stroke-width="2"/><ellipse cx="285" cy="239" rx="14" ry="6" fill="#a7d8bf" stroke-width="3"/>
+<circle cx="439" cy="218" r="10" fill="#ffc378" stroke-width="3"/><path d="m443 225 20 26-5 20-12 1 4-19-16-20" fill="url(#metal)" stroke-width="3"/>
+<path d="m450 236-9 7m15 0-8 6" stroke-width="2"/>
+<!-- Espresso in motion. -->
+<ellipse cx="279" cy="232" rx="25" ry="4" fill="#fbe3ba" stroke-width="2"/>
+<path d="M289 215q16-5 13 4-2 7-14 5" fill="none" stroke-width="3"/>
+<path d="m263 214 28-2-2 12q-3 8-13 8-12-1-13-18z" fill="#fff5d1" stroke-width="2.5"/>
+<path d="M272 207q-6-7 0-12t0-13m8 23q-3-5 2-10" stroke="#fff5d1" fill="none" stroke-width="3"/>
+</g>
+<!-- Terrazzo counter with chrome piping. -->
+<path d="m0 346 760-99v41L0 408Z" fill="#f39a8b" stroke="#54616a" stroke-width="3"/><path d="m0 378 760-107v8L0 388Z" fill="#fff0c5"/>
+<path d="m0 345 760-98-87-17L0 309z" fill="#ffedce" stroke="#54616a" stroke-width="3"/>
+<!-- Portable terminal. -->
+<g stroke="#374e58" stroke-width="3" stroke-linejoin="round"><path d="m237 298 23-47 59-6-17 46 15 5-57 9z" fill="#6d9b9b"/><path d="m244 295 21-40 48-5-16 39z" fill="#a7d9c7"/><path d="m255 302 47-7" stroke-width="2"/></g>
+<path d="m279 264 2 5 6 1-6 3-3 7-1-6-6-2 6-2z" fill="#fff6db"/>
+<!-- Right guest in a lavender jumpsuit, leaning into the conversation. -->
+<g stroke="#494657" stroke-linecap="round" stroke-linejoin="round">
+<path d="M568 182q-16-17-3-36 11-14 37-11 22-7 35 6 16 13 6 31 8 15 1 30l-45 17z" fill="#7c5354" stroke-width="3.5"/>
+<path d="M576 160q3 13-4 24l-8 12 8 3q0 16 18 18l2 19 28-5-7-29q9-6 6-15-4-7-11-2l-4 6-4-24q-13 3-24-7z" fill="#f0ba92" stroke-width="3"/>
+<path d="m577 186 5 1m-7 17q5 2 10-1" stroke-width="2.5" fill="none"/><path d="m568 182 23 1-3 11-11 1z" fill="none" stroke-width="2.5"/><path d="m591 183 19-3" stroke-width="2.5"/>
+<path d="M588 224q15 4 26-6 27 4 42 29l22 70-68 30-44-65z" fill="#b2a5d0" stroke-width="3.5"/>
+<path d="m586 225 10 18 13-12 8 8 3-18" fill="#ffe9c7" stroke-width="2.5"/>
+<path d="m597 245-23 34-42-8-5 14 50 12q9 2 14-5l24-30" fill="#b2a5d0" stroke-width="3.5"/>
+<path d="m534 271-17-7-12-8-5 2 7 8-19-5-4 4 18 10 25 9z" fill="#f0ba92" stroke-width="2.5"/>
+<path d="M611 329q35-10 64-24 14 22-1 41l-53 28-8 64-20 1 1-81z" fill="#50546c" stroke-width="3.5"/>
+<path d="m613 436 7 8-4 6-43 2q-2-8 20-16z" fill="#fff1c9" stroke-width="3"/>
+</g>
+<!-- Pedestal stools, a second cup, and a tiny tabletop star. -->
+<g stroke="#466166" stroke-width="3"><path d="m659 351 10-1 8 74-11 1z" fill="#80bfb0"/><ellipse cx="671" cy="428" rx="33" ry="6" fill="#93c7b4"/><path d="M635 344q24-16 61-12l4 10q-13 13-61 13z" fill="#ef897e"/><path d="m120 390 12-2-5 80-12 2z" fill="#83bcae"/><ellipse cx="119" cy="472" rx="36" ry="7" fill="#98cab9"/><ellipse cx="125" cy="386" rx="41" ry="10" transform="rotate(-7 125 386)" fill="#f79e8e"/></g>
+<ellipse cx="473" cy="280" rx="19" ry="4" fill="#d7b79f"/><path d="M482 265q16-4 9 5l-9 4" stroke="#52616b" stroke-width="2" fill="none"/><path d="m461 264 23-2-2 12q-11 11-19-1z" fill="#f6bd6c" stroke="#52616b" stroke-width="2"/>
+<use href="#spark" transform="translate(319 111) scale(.68)"/><use href="#spark" transform="translate(476 121) scale(.46)"/><use href="#spark" transform="translate(65 118) scale(.48)"/>
+</svg>
